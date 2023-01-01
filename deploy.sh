@@ -9,5 +9,5 @@ git init
 
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:de3studio/de3.studio.git main:gh-pages
+git push -f git@github.com:de3studio/de3.git main:gh-pages
 cd -
