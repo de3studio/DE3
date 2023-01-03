@@ -1,8 +1,13 @@
-<script></script>
-
+<script>
+import home from "../components/Home/home2.vue";
+export default {
+  components: {
+    home,
+  },
+  }
+</script>
 <template>
   <div class="shape-1"></div>
-
   <div class="flex">
     <div style="margin-top: 125px">
       <p class="Txet-1">we create your creative content</p>
@@ -10,44 +15,58 @@
         Ipsum has been the industry's standard dummy text ever since the 1500s,
         when an unknown printer took a galley oftype and
       </p>
+
+      <div
+        style="display: flex; margin-top:20px; margin-bottom: 10px"
+        class="felxcontectusbut"
+      >
+        <RouterLink to="/about" class="contectusbut">contect us</RouterLink>
+        <div class="ma25" style="">
+          <div
+            class="wfelxcontectusbut"
+            style="
+              height: 60px;
+              margin: 1px;
+              z-index: 1;
+              border-radius: 16px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              position: absolute;
+              align-items: center;
+              background: #1f1f1f;
+            "
+          >
+            <RouterLink
+              style="width: 306px; display: flex; justify-content: center"
+              to="/about"
+              class="OURWORKbut1"
+              >OUR WORK</RouterLink
+            >
+          </div>
+          <div class="OURWORKbut"></div>
+        </div>
+      </div>
     </div>
+
     <div>
-      <img
-        src="../assets/first660.png"
-        alt=""
-        style="width: 660px; height: 650px"
-      />
+      <img class="img1" src="../assets/first660.png" alt="" />
       <div class="patner"><p class="c100">+100</p></div>
       <div class="shape-2"></div>
     </div>
   </div>
-  <div style="margin-top: 135px" class="felx">
-    <a class="contectusbut">contect us</a>
-    <div style="margin-top: -65px; margin-left: 340px">
-      <div
-        style="
-          width: 308px;
-          border-radius: 16px;
-          height: 63px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          position: absolute;
-          align-items: center;
-          background: #1f1f1f;
-        "
-      >
-        <a style="" class="OURWORKbut1">OUR WORK</a>
-      </div>
-      <div class="OURWORKbut"></div>
-    </div>
-  </div>
+
+<home></home>
 </template>
 
 <style>
+.img1 {
+}
+
 .flex {
   display: flex;
 }
+
 .shape-1 {
   position: absolute;
   z-index: -99;
@@ -126,7 +145,6 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-top: -250px;
   width: 308.65px;
   height: 64px;
   font-family: "Inter";
@@ -140,6 +158,10 @@
   border-radius: 16px;
 }
 
+.ma25{
+  margin-left: 50px;
+
+}
 .OURWORKbut {
   box-sizing: border-box;
 
@@ -181,4 +203,65 @@
 
   /* Inside auto layout */
 }
+
+@media only screen and (max-width: 820px) {
+  .flex {
+    display: block;
+  }
+  .img1 {
+    width: 410px;
+  }
+
+  .shape-1 {
+    display: none;
+  }
+  .shape-2 {
+    display: none;
+  }
+  .Txet-2 {
+    padding-top: 20px;
+    width: 334px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #ffffff;
+  }
+  .Txet-1 {
+    width: 347px;
+    height: 168px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+  }
+
+  .patner {
+    border-radius: 12.399px;
+    margin-left: 135px;
+    width: 201.03px;                            
+    height: 114.69px;
+  }
+
+  .contectusbut {
+    width: 180px;
+  }
+
+  .wfelxcontectusbut {
+    width: 178px;
+  }
+  .OURWORKbut {
+    width: 180px;
+  }
+  .container{
+
+    background:none;
+  }
+ .ma25{
+      margin-left: 25px;
+ }}
 </style>

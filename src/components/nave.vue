@@ -1,36 +1,40 @@
 <template>
   <div
-    style="margin-left: 18px; margin-top: 36px; position: absolute; z-index: 1"
+    style="margin-left: 18px; margin-top: 22px; position: absolute; z-index: 1"
   >
     <img src="../assets/DE3.svg" alt="" />
   </div>
   <div class="container">
-    <ul>
+    <ul style="    margin-left: -50px;" class="ds">
       <li style="margin: 20px" class="one" activ>
         <RouterLink class="one" active-class="active" @click="ind = 11" to="/"
           >Home</RouterLink
         >
       </li>
       <!--
- -->
-      <li style="margin: 20px">
+   -->
+      <li style="">
         <RouterLink
-          @click="ind = 45"
+          @click="ind = 27"
           class="two"
           active-class="active"
           to="/about"
-          >| About</RouterLink
+          >| 3D</RouterLink
         >
       </li>
       <!--
- -->
-      <li style="margin: 20px" @click="ind = 73" class="three">
-        <a href="#">| test</a>
+   -->
+      <li style="margin: 20px" @click="ind = 40" class="three">
+        <a href="#">| 2D</a>
       </li>
       <!--
- -->
-      <li @click="ind = 90" class="four"><a href="#">| test</a></li>
+   -->
+      <li @click="ind = 58" class="four"><a href="#">| Design</a></li>
 
+
+      <li style="margin: 20px" @click="ind = 83" class="three">
+        <a href="#">| About us</a>
+      </li>
       <div
         :style="{
           color: '#CF8D23',
@@ -45,17 +49,23 @@
         ▲
       </div>
     </ul>
-
-    <div>
+    <div class="ds" style="position: absolute; right: 10px">
       <div class="contectus">contect us</div>
     </div>
   </div>
+  <div class="mo">
+    <MO></MO>
+  </div>
 </template>
 <script>
+import MO from "./MO.vue";
 export default {
+  components: {
+    MO,
+  },
   data() {
     return {
-      ind: 12,
+      ind: 10,
     };
   },
 };
@@ -68,15 +78,12 @@ body {
 .container {
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
   gap: 118px;
-
-  position: relative;
-  width: 1284px;
-  height: 80px;
+  max-width: 1284px;
+  height: 50px;
 
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(20.5px);
@@ -113,8 +120,6 @@ a {
   margin-left: 75%;
 }
 .contectus {
-  top: 17px;
-    left: 1097px;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -122,16 +127,26 @@ a {
   text-transform: capitalize;
 
   color: #ffffff;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px;
 
   width: 176px;
-  height: 48px;
+  height: 40px;
 
   background: #111111;
   border-radius: 8px;
+}
+.mo {
+  display: none;
+}
+@media only screen and (max-width: 820px) {
+  .mo {
+    display: block;
+  }
+  .ds {
+    display: none;
+  }
 }
 </style>
