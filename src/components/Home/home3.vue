@@ -3,7 +3,7 @@
     <div style="display: flex; justify-content: center">
       <p style=" " class="texthome1">Our services</p>
     </div>
-
+<div style="    filter: blur(88px); margin-top: 69px; margin-left: 133px" class="shape-2"></div>
     <div>
       <div class="home2flex">
         <div>
@@ -99,6 +99,7 @@
 <style scoped>
 .vfsf {
   width: auto;
+  max-width: 360px;
 }
 .home2flex {
   display: flex;

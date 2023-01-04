@@ -3,9 +3,11 @@
     <div style="display: flex; justify-content: center">
       <p class="texthome1">our spacial clients</p>
     </div>
+
+    <div style="margin-top: 69px; margin-left: 133px" class="shape-2"></div>
     <div class="felxhome1">
       <div
-      class="felxhome11"
+        class="felxhome11"
         style="
           margin-bottom: 20px;
           display: flex;
@@ -24,12 +26,15 @@
           <img src="../../assets/icons/opiilz.png" alt="" />
           <p>oPiiLz صالح</p>
         </div>
-        <div style="    margin-bottom: 0;" class="cont">
+        <div style="margin-bottom: 0" class="cont">
           <img src="../../assets/icons/Aziz.png" alt="" />
           <p>Aziz عزيز</p>
         </div>
       </div>
-      <div class="felxhome11" style="display: flex; justify-content: space-between">
+      <div
+        class="felxhome11"
+        style="display: flex; justify-content: space-between"
+      >
         <div class="cont">
           <img src="../../assets/icons/TeamFalcons.png" alt="" />
           <p>Falcons فالكونز</p>
@@ -51,7 +56,6 @@
   </div>
 </template>
 <style>
-
 .cont {
   font-family: "Inter";
   font-style: normal;
@@ -65,15 +69,15 @@
   gap: 17px;
   width: 250px;
   height: 70px;
-  
+
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
-  
+
   border-radius: 32px;
-  
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   align-self: stretch;
@@ -83,39 +87,36 @@
 .texthome1 {
   max-width: 339px;
   height: 144px;
-  
+
   font-family: "Inter";
   font-weight: 600;
   font-size: 61px;
   /* or 118% */
-  
+
   text-align: center;
   text-transform: capitalize;
-  
+
   /* gold */
-  
+
   background: linear-gradient(100.95deg, #cb7c06 -2.67%, #f2e89c 93.83%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 @media only screen and (max-width: 820px) {
-    .cont {margin-bottom: 20px;}
-    .felxhome11{
-
-        flex-direction: column;
-
-    }
+  .cont {
+    margin-bottom: 20px;
+  }
+  .felxhome11 {
+    flex-direction: column;
+  }
   .felxhome1 {
-
-    display: flex ;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
   }
-  .texthome1{
-
-font-size: 40px;
+  .texthome1 {
+    font-size: 40px;
   }
 }
 </style>

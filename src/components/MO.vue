@@ -85,8 +85,7 @@ label[for="ham-menu"] {
 .ham-menu > ul {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
-  padding: 20px;
+  justify-content: center;
   height: 50%;
 }
 .ham-menu > ul > li {
