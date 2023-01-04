@@ -1,8 +1,10 @@
 <script>
 import home from "../components/Home/home2.vue";
+import home3 from "../components/Home/home3.vue";
 export default {
   components: {
     home,
+    home3
   },
   }
 </script>
@@ -57,6 +59,8 @@ export default {
   </div>
 
 <home></home>
+
+<home3></home3>
 </template>
 
 <style>
@@ -206,6 +210,8 @@ export default {
 
 @media only screen and (max-width: 820px) {
   .flex {
+
+    justify-content:start;;
     display: block;
   }
   .img1 {

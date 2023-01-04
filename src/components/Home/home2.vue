@@ -3,32 +3,80 @@
     <div style="display: flex; justify-content: center">
       <p class="texthome1">our spacial clients</p>
     </div>
-    <div
-      style="margin-bottom: 20px; display: flex; justify-content: space-between"
-    >
-      <div class="cont">
-        <img src="../../assets/icons/3G.png" alt="3Gaming أبوعابد" />
-        <p>3Gaming أبوعابد</p>
+    <div class="felxhome1">
+      <div
+      class="felxhome11"
+        style="
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <div class="cont">
+          <img src="../../assets/icons/3G.png" alt="3Gaming أبوعابد" />
+          <p>3Gaming أبوعابد</p>
+        </div>
+        <div class="cont">
+          <img src="../../assets/icons/Ocmz.png" alt="" />
+          <p>oCMz أوسمز</p>
+        </div>
+        <div class="cont">
+          <img src="../../assets/icons/opiilz.png" alt="" />
+          <p>oPiiLz صالح</p>
+        </div>
+        <div style="    margin-bottom: 0;" class="cont">
+          <img src="../../assets/icons/Aziz.png" alt="" />
+          <p>Aziz عزيز</p>
+        </div>
       </div>
-      <div class="cont"> <img src="../../assets/icons/Ocmz.png" alt="" /><p>oCMz أوسمز</p></div>
-      <div class="cont"> <img src="../../assets/icons/opiilz.png" alt="" /><p>صالح oPiiLz</p></div>
-      <div class="cont"> <img src="../../assets/icons/Aziz.png" alt="" /><p>Aziz عزيز</p></div>
-    </div>
-    <div style="display: flex; justify-content: space-between">
-      <div class="cont"> <img src="../../assets/icons/TeamFalcons.png" alt="" /><p>Falcons فالكونز</p></div>
-      <div class="cont"> <img src="../../assets/icons/Bandar.png" alt="" /><p>BanderitaX</p></div>
-      <div class="cont"> <img src="../../assets/icons/Xsma.png" alt="" /><p>xSMA333</p></div>
-      <div class="cont"> <img src="../../assets/icons/Frame.png" alt="" /><p>Ahmed Show</p></div>
+      <div class="felxhome11" style="display: flex; justify-content: space-between">
+        <div class="cont">
+          <img src="../../assets/icons/TeamFalcons.png" alt="" />
+          <p>Falcons فالكونز</p>
+        </div>
+        <div class="cont">
+          <img src="../../assets/icons/Bandar.png" alt="" />
+          <p>BanderitaX</p>
+        </div>
+        <div class="cont">
+          <img src="../../assets/icons/Xsma.png" alt="" />
+          <p>xSMA333</p>
+        </div>
+        <div class="cont">
+          <img src="../../assets/icons/Frame.png" alt="" />
+          <p>Ahmed Show</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 <style>
+@media only screen and (max-width: 820px) {
+    .cont {margin-bottom: 20px;}
+    .felxhome11{
+
+        flex-direction: column;
+
+    }
+  .felxhome1 {
+
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  .wdd{
+
+
+  }
+}
+
 .cont {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -73,4 +121,3 @@ line-height: 32px;
   background-clip: text;
 }
 </style>
-
