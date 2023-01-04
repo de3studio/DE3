@@ -11,7 +11,7 @@ export default {
 <template>
   <div class="shape-1"></div>
   <div class="flex">
-    <div style="margin-top: 125px">
+    <div class="sdsdf">
       <p class="Txet-1">we create your creative content</p>
       <p class="Txet-2">
         Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -64,9 +64,7 @@ export default {
 </template>
 
 <style>
-.img1 {
-}
-
+ .sdsdf{margin-top: 125px}
 .flex {
   display: flex;
 }
@@ -209,15 +207,24 @@ export default {
 }
 
 @media only screen and (max-width: 820px) {
-  .flex {
 
+  .sdsdf{margin-top: 0;}
+  .flex {
+    
     justify-content:start;;
     display: block;
   }
   .img1 {
-    width: 410px;
+    width: 320px;
   }
-
+  .patner {
+    border-radius: 12.399px;
+    margin-left: 100px;
+    width: 201.03px;                            
+    height: 114.69px;
+    margin-top: -70px;
+  }
+  
   .shape-1 {
     display: none;
   }
@@ -246,26 +253,23 @@ export default {
     line-height: 56px;
   }
 
-  .patner {
-    border-radius: 12.399px;
-    margin-left: 135px;
-    width: 201.03px;                            
-    height: 114.69px;
-  }
 
   .contectusbut {
-    width: 180px;
+    width: 150px;
   }
 
   .wfelxcontectusbut {
-    width: 178px;
+    width: 148px;
   }
   .OURWORKbut {
-    width: 180px;
+    width: 150px;
   }
   .container{
 
     background:none;
+  }
+  .felxcontectusbut{
+    justify-content: center;
   }
  .ma25{
       margin-left: 25px;

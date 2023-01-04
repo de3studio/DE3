@@ -26,8 +26,14 @@ export default {
 
 @media only screen and (max-width: 820px) {
   .s {
-    margin-left: 25px;
   }
+body{
+overflow: hidden;
+
+}
+}
+html{
+  overflow-X: hidden;
 
 }
 

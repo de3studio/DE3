@@ -1,19 +1,88 @@
 <template>
   <div style="margin-top: 100px">
     <div style="display: flex; justify-content: center">
-      <p style="width: 381px; height: 72px" class="texthome1">Our services</p>
+      <p style=" " class="texthome1">Our services</p>
     </div>
 
-    <div style="display: flex">
+    <div>
+      <div class="home2flex">
+        <div>
+          <img
+            src="../../assets/svervice/3D.png"
+            alt=""
+            srcset="../../assets/svervice/3D-sml.png"
+          />
+        </div>
+        <p style="margin-top: 0px; margin-bottom: 0px" class="texthome1 vfsf">
+          3D
+          <br />
+        </p>
+        <p class="textbox">
+          Immersive 3D environments, in photorealistic or real-time 3D, that
+          captivate your audience, available in VR AR and on the web.
+        </p>
+      </div>
+
+      <div class="posi">
+        <div class="wsdf"><p>Continue reading</p></div>
+        <div class="bubox"></div>
+      </div>
+    </div>
+    <div class="mag100">
+      <div class="home2flex" style="justify-content: end">
+        <div>
+          <img src="../../assets/svervice/WEB.png" alt="" />
+        </div>
+        <p
+          style="margin-right: -255px; margin-top: 0px; margin-bottom: 0px"
+          class="texthome1 vfsf"
+        >
+          Web desgin
+        </p>
+        <p class="textbox">
+          Immersive 3D environments, in photorealistic or real-time 3D, that
+          captivate your audience, available in VR AR and on the web.
+        </p>
+      </div>
+
+      <div  class="posi maer2">
+        <div class="wsdf"><p>Continue reading</p></div>
+        <div class="bubox"></div>
+      </div>
+    </div>
+
+    <div class="mag100">
+      <div class="home2flex">
+        <div>
+          <img src="../../assets/svervice/2D.png" alt="" />
+        </div>
+        <p style="margin-top: 0px; margin-bottom: 0px" class="texthome1 vfsf">
+          2D
+          <br />
+        </p>
+        <p class="textbox">
+          Immersive 3D environments, in photorealistic or real-time 3D, that
+          captivate your audience, available in VR AR and on the web.
+        </p>
+      </div>
+
+      <div class="posi">
+        <div class="wsdf"><p>Continue reading</p></div>
+        <div class="bubox"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mag100">
+    <div class="home2flex" style="justify-content: center">
       <div>
-        <img src="../../assets/svervice/3D.png" alt="" />
+        <img src="../../assets/svervice/Design.png" alt="" />
       </div>
       <p
-        style="width: auto; margin-top: 0px; margin-bottom: 0px"
-        class="texthome1"
+        style="margin-right: -110px; margin-top: 0px; margin-bottom: 0px"
+        class="texthome1 vfsf"
       >
-        3D
-        <br />
+        Design
       </p>
       <p class="textbox">
         Immersive 3D environments, in photorealistic or real-time 3D, that
@@ -21,17 +90,29 @@
       </p>
     </div>
 
-    <div class="posi">
+    <div class="posi maerd">
       <div class="wsdf"><p>Continue reading</p></div>
       <div class="bubox"></div>
     </div>
   </div>
 </template>
 <style scoped>
+.vfsf {
+  width: auto;
+}
+.home2flex {
+  display: flex;
+}
+.mag100 {
+  margin-top: 200px;
+}
 .posi {
   margin-left: 260px;
   margin-top: -100px;
 }
+.maer2 {margin-left: 780px}
+
+.maerd {margin-left: 520px}
 
 .wsdf {
   display: flex;
@@ -82,5 +163,37 @@
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor; /*5'*/
   mask-composite: exclude; /*5*/
+}
+
+@media only screen and (max-width: 820px) {
+  .home2flex {
+    display: block;
+  }
+
+  .vfsf {
+    text-align: left;
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+  }
+  .textbox {
+    margin-top: 20px;
+    max-width: 350px;
+    height: auto;
+    margin-left: 0;
+  }
+  .posi {
+    margin-left: 0;
+    margin-top: 0;
+
+  }
+  .maer{
+    margin-left: 0;
+    margin-top: 0;
+
+  }
+  .mag100 {
+  margin-top: 100px;
+}
 }
 </style>

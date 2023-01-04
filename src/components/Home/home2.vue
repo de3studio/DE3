@@ -51,25 +51,6 @@
   </div>
 </template>
 <style>
-@media only screen and (max-width: 820px) {
-    .cont {margin-bottom: 20px;}
-    .felxhome11{
-
-        flex-direction: column;
-
-    }
-  .felxhome1 {
-
-    display: flex ;
-    justify-content: center;
-    flex-wrap: wrap;
-
-  }
-  .wdd{
-
-
-  }
-}
 
 .cont {
   font-family: "Inter";
@@ -84,15 +65,15 @@
   gap: 17px;
   width: 250px;
   height: 70px;
-
+  
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
-
+  
   border-radius: 32px;
-
+  
   /* Inside auto layout */
-
+  
   flex: none;
   order: 0;
   align-self: stretch;
@@ -100,24 +81,41 @@
 }
 
 .texthome1 {
-  width: 339px;
+  max-width: 339px;
   height: 144px;
-
+  
   font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 61px;
-  line-height: 72px;
   /* or 118% */
-
+  
   text-align: center;
   text-transform: capitalize;
-
+  
   /* gold */
-
+  
   background: linear-gradient(100.95deg, #cb7c06 -2.67%, #f2e89c 93.83%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+@media only screen and (max-width: 820px) {
+    .cont {margin-bottom: 20px;}
+    .felxhome11{
+
+        flex-direction: column;
+
+    }
+  .felxhome1 {
+
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  .texthome1{
+
+font-size: 40px;
+  }
 }
 </style>
