@@ -1,10 +1,14 @@
 <script>
 import home from "../components/Home/home2.vue";
 import home3 from "../components/Home/home3.vue";
+import home4 from "../components/Home/home4.vue";
+import home5 from "../components/Home/home5.vue";
 export default {
   components: {
     home,
-    home3
+    home3,
+    home4,
+    home5,
   },
   }
 </script>
@@ -61,6 +65,9 @@ export default {
 <home></home>
 
 <home3></home3>
+
+<home4></home4>
+<home5></home5>
 </template>
 
 <style>
