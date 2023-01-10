@@ -39,7 +39,7 @@
 
   align-items: center;
 
-  margin-top: 145px;
+  margin-top: 130px;
   margin-left: -400px;
   font-size: 19px;
   text-transform: capitalize;
@@ -58,7 +58,7 @@
     position: absolute;
     width: 250px;
     margin-top: -250px;
-    left: 20px;
+    left: 30px;
   }
   .dsfdgdfvhs {
     margin-top: 350px;
@@ -66,7 +66,9 @@
 
   .butwite {
     margin-top: 220px;
-    margin-left: -200px;
+    position: absolute;
+    margin-left: -25px;
+
   }
 
   .dsgdt {
@@ -76,7 +78,13 @@
     margin-left: 0;
   }
   .drgafelx {
+    margin-left: -20px;
     justify-content: center;
+  }
+  .marrite2{
+
+      margin-left: 20px;
+
   }
 }
 </style>

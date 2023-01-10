@@ -269,10 +269,14 @@
 
 @media only screen and (max-width: 820px) {
   .centerdevv {
+    display: flex;
+
     margin-left: 0;
     max-width: 400px;
   }
   .centerdev {
+    display: flex;
+
   }
 
   .buthome5 {
@@ -280,7 +284,8 @@
   }
 
   .texthome52 {
-    max-width: 400px;
+
+    max-width: 90%;
     height: auto;
   }
 

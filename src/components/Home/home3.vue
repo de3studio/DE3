@@ -1,17 +1,14 @@
 <template>
   <div style="margin-top: 100px">
     <div style="display: flex; justify-content: center">
-      <p style=" " class="texthome1">Our services</p>
+      <p style="" class="texthome1">Our services</p>
     </div>
-<div style="    filter: blur(88px); margin-top: 69px; margin-left: 133px" class="shape-2"></div>
     <div>
       <div class="home2flex">
         <div>
-          <img
-            src="../../assets/svervice/3D.png"
-            alt=""
-            srcset="../../assets/svervice/3D-sml.png"
-          />
+          <video autoplay loop muted playsinline>
+            <source src="../../assets/svervice/3DGIF.mp4" type="video/mp4" />
+          </video>
         </div>
         <p style="margin-top: 0px; margin-bottom: 0px" class="texthome1 vfsf">
           3D
@@ -31,7 +28,9 @@
     <div class="mag100">
       <div class="home2flex" style="justify-content: end">
         <div>
-          <img src="../../assets/svervice/WEB.png" alt="" />
+          <video autoplay loop muted playsinline>
+            <source src="../../assets/svervice/3DGIF.mp4" type="video/mp4" />
+          </video>
         </div>
         <p
           style="margin-right: -255px; margin-top: 0px; margin-bottom: 0px"
@@ -45,7 +44,7 @@
         </p>
       </div>
 
-      <div  class="posi maer2">
+      <div class="posi maer2">
         <div class="wsdf"><p>Continue reading</p></div>
         <div class="bubox"></div>
       </div>
@@ -54,7 +53,9 @@
     <div class="mag100">
       <div class="home2flex">
         <div>
-          <img src="../../assets/svervice/2D.png" alt="" />
+          <video autoplay loop muted playsinline>
+            <source src="../../assets/svervice/3DGIF.mp4" type="video/mp4" />
+          </video>
         </div>
         <p style="margin-top: 0px; margin-bottom: 0px" class="texthome1 vfsf">
           2D
@@ -76,7 +77,9 @@
   <div class="mag100">
     <div class="home2flex" style="justify-content: center">
       <div>
-        <img src="../../assets/svervice/Design.png" alt="" />
+        <video autoplay loop muted playsinline>
+            <source src="../../assets/svervice/3DGIF.mp4" type="video/mp4" />
+          </video>
       </div>
       <p
         style="margin-right: -110px; margin-top: 0px; margin-bottom: 0px"
@@ -111,9 +114,13 @@
   margin-left: 260px;
   margin-top: -100px;
 }
-.maer2 {margin-left: 780px}
+.maer2 {
+  margin-left: 780px;
+}
 
-.maerd {margin-left: 520px}
+.maerd {
+  margin-left: 520px;
+}
 
 .wsdf {
   display: flex;
@@ -172,6 +179,7 @@
   }
 
   .vfsf {
+    margin-left: 25px;
     text-align: left;
     width: auto;
     height: auto;
@@ -181,20 +189,18 @@
     margin-top: 20px;
     max-width: 350px;
     height: auto;
-    margin-left: 0;
+    margin-left: 10px;
   }
   .posi {
-    margin-left: 0;
+    margin-left: 20px;
     margin-top: 0;
-
   }
-  .maer{
+  .maer {
     margin-left: 0;
     margin-top: 0;
-
   }
   .mag100 {
-  margin-top: 100px;
-}
+    margin-top: 100px;
+  }
 }
 </style>

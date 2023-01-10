@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Inter');
+
+
+@font-face {
+  font-family:'Inter' ;
+  src: url(fonts/DXRigraf-SemiBold.otf)
+}
 
 body {
   overflow-x: hidden;
 font-family: 'Inter', sans-serif;
 color:white;
   background: #111111;
+  margin: auto;
+  box-sizing: border-box;
 }

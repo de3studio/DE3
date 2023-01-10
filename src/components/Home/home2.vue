@@ -14,49 +14,50 @@
           justify-content: space-between;
         "
       >
-        <div class="cont">
+        <a href="https://www.youtube.com/@oCMz" target="_blank"  class="cont">
           <img src="../../assets/icons/3G.png" alt="3Gaming أبوعابد" />
           <p>3Gaming أبوعابد</p>
-        </div>
-        <div class="cont">
+        </a>
+        <a  href="https://www.youtube.com/@oCMz" target="_blank"   class="cont">
           <img src="../../assets/icons/Ocmz.png" alt="" />
           <p>oCMz أوسمز</p>
-        </div>
-        <div class="cont">
+        </a>
+        <a  href="https://www.youtube.com/@oCMz" target="_blank"  class="cont">
           <img src="../../assets/icons/opiilz.png" alt="" />
           <p>oPiiLz صالح</p>
-        </div>
-        <div style="margin-bottom: 0" class="cont">
+        </a>
+        <a style="margin-bottom: 0" href="https://www.youtube.com/@oCMz" target="_blank" class="cont">
           <img src="../../assets/icons/Aziz.png" alt="" />
           <p>Aziz عزيز</p>
-        </div>
+        </a>
       </div>
       <div
         class="felxhome11"
         style="display: flex; justify-content: space-between"
       >
-        <div class="cont">
+        <a href="https://www.youtube.com/@oCMz" target="_blank" class="cont">
           <img src="../../assets/icons/TeamFalcons.png" alt="" />
           <p>Falcons فالكونز</p>
-        </div>
-        <div class="cont">
+        </a>
+        <a href="https://www.youtube.com/@oCMz" target="_blank" class="cont">
           <img src="../../assets/icons/Bandar.png" alt="" />
           <p>BanderitaX</p>
-        </div>
-        <div class="cont">
+        </a>
+        <a href="https://www.youtube.com/@oCMz" target="_blank" class="cont">
           <img src="../../assets/icons/Xsma.png" alt="" />
           <p>xSMA333</p>
-        </div>
-        <div class="cont">
+        </a>
+        <a href="https://www.youtube.com/@oCMz" target="_blank" class="cont">
           <img src="../../assets/icons/Frame.png" alt="" />
           <p>Ahmed Show</p>
-        </div>
+        </a>
       </div>
     </div>
   </div>
 </template>
 <style>
 .cont {
+  color: rgb(255, 255, 255);
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -73,7 +74,7 @@
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
-
+  border: 1px solid #ffffff00;
   border-radius: 32px;
 
   /* Inside auto layout */
@@ -82,8 +83,14 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-}
+  transition: .9s;
 
+
+}
+.cont:hover {
+
+  border: 1px solid #cb7c06;
+} 
 .texthome1 {
   max-width: 339px;
   height: 144px;
@@ -105,6 +112,7 @@
 }
 @media only screen and (max-width: 820px) {
   .cont {
+    margin-left: -25px;
     margin-bottom: 20px;
   }
   .felxhome11 {
@@ -115,7 +123,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .texthome1 {
+  .texthome1 {    margin-left: -25px;
     font-size: 40px;
   }
 }

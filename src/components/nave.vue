@@ -5,7 +5,7 @@
     <img src="../assets/DE3.svg" alt="" />
   </div>
   <div class="container">
-    <ul style="    margin-left: -50px;" class="ds">
+    <ul style="margin-left: -50px" class="ds">
       <li style="margin: 20px" class="one" activ>
         <RouterLink class="one" active-class="active" @click="ind = 11" to="/"
           >Home</RouterLink
@@ -14,11 +14,7 @@
       <!--
    -->
       <li style="">
-        <RouterLink
-          @click="ind = 27"
-          class="two"
-          active-class="active"
-          to="/about"
+        <RouterLink @click="ind = 27" class="two" active-class="active" to="/3D"
           >| 3D</RouterLink
         >
       </li>
@@ -29,8 +25,9 @@
       </li>
       <!--
    -->
-      <li @click="ind = 58" class="four"><a href="#">| Design</a></li>
-
+      <li @click="ind = 58" class="four">
+        <RouterLink active-class="active" class="four" to="/Design">| Design</RouterLink>
+      </li>
 
       <li style="margin: 20px" @click="ind = 83" class="three">
         <a href="#">| About us</a>
@@ -114,10 +111,12 @@ a {
 
 .three:hover ~ .arrow {
   margin-left: 50%;
+  color: #cf8d23;
 }
 
 .four:hover ~ .arrow {
   margin-left: 75%;
+  color: #cf8d23;
 }
 .contectus {
   font-weight: 400;

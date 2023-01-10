@@ -5,10 +5,10 @@ import home4 from "../components/Home/home4.vue";
 import home5 from "../components/Home/home5.vue";
 export default {
   components: {
-    home,
-    home3,
-    home4,
-    home5,
+    //home,
+   // home3,
+   //// home4,
+    //home5,
   },
   }
 </script>
@@ -16,7 +16,7 @@ export default {
   <div class="shape-1"></div>
   <div class="flex">
     <div class="sdsdf">
-      <p class="Txet-1">we create your creative content</p>
+      <p class="Txet-1">We Create Your Creative Content</p>
       <p class="Txet-2">
         Ipsum has been the industry's standard dummy text ever since the 1500s,
         when an unknown printer took a galley oftype and
@@ -68,6 +68,7 @@ export default {
 
 <home4></home4>
 <home5></home5>
+
 </template>
 
 <style>
@@ -157,7 +158,7 @@ export default {
   width: 308.65px;
   height: 64px;
   font-family: "Inter";
-  font-style: normal;
+    font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -165,7 +166,17 @@ export default {
   color: #111111;
   background: linear-gradient(109.9deg, #c67806 7.43%, #ffd80d 103.68%);
   border-radius: 16px;
+  transition: 1s;
+
 }
+.contectusbut:hover{
+  background: linear-gradient(109.9deg, #c67806 7.43%, #ffd80d 103.68%);
+  background-repeat:no-repeat;
+  background-size: 200% 100%; 
+  transition:background-size 1s, background-color 1s;
+
+}
+.contectusbut:active {background-color:#2980b9; transition:background-size 0}
 
 .ma25{
   margin-left: 50px;
@@ -245,6 +256,7 @@ export default {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-left: 10px;
     /* or 150% */
 
     color: #ffffff;
@@ -252,7 +264,7 @@ export default {
   .Txet-1 {
     width: 347px;
     height: 168px;
-
+    margin-left: 10px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
@@ -266,6 +278,7 @@ export default {
   }
 
   .wfelxcontectusbut {
+
     width: 148px;
   }
   .OURWORKbut {
@@ -276,6 +289,7 @@ export default {
     background:none;
   }
   .felxcontectusbut{
+    margin-left: -25px;
     justify-content: center;
   }
  .ma25{
