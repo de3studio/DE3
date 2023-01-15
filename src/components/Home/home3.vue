@@ -131,7 +131,7 @@
   height: 35px;
   background: #111111;
   position: absolute;
-  z-index: 999;
+  z-index: 98 9;
 
   align-items: center;
 

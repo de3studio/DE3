@@ -92,9 +92,7 @@
   border: 1px solid #cb7c06;
 } 
 .texthome1 {
-  max-width: 339px;
-  height: 144px;
-
+  max-width: 350px;
   font-family: "Inter";
   font-weight: 600;
   font-size: 61px;

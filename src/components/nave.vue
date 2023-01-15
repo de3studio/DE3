@@ -1,10 +1,13 @@
 <template>
+
+
+
   <div
-    style="margin-left: 18px; margin-top: 22px; position: absolute; z-index: 1"
+    style="margin-left: 18px;position: absolute; z-index: 1"
   >
     <img src="../assets/DE3.svg" alt="" />
   </div>
-  <div class="container">
+  <div style="    margin-top: 0px;" class="container">
     <ul style="margin-left: -50px" class="ds">
       <li style="margin: 20px" class="one" activ>
         <RouterLink class="one" active-class="active" @click="ind = 11" to="/"
@@ -68,12 +71,9 @@ export default {
 };
 </script>
 <style>
-body {
-  font: 300 100% "Helvetica Neue", Helvetica, Arial;
-}
+
 
 .container {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

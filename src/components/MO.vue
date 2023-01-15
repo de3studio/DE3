@@ -59,7 +59,7 @@
 label[for="ham-menu"] {
   display: block;
   position: absolute;
-  top: 31px;
+  top:5px;
   right: 20px;
   z-index: 999;
   width: 55px;

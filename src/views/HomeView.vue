@@ -5,16 +5,20 @@ import home4 from "../components/Home/home4.vue";
 import home5 from "../components/Home/home5.vue";
 export default {
   components: {
-    //home,
-   // home3,
-   //// home4,
-    //home5,
+    home,
+   home3,
+   home4,
+    home5,
   },
+  mounted() {
+    window.scrollTo({ top: 0, });
+    }
   }
+  
 </script>
 <template>
   <div class="shape-1"></div>
-  <div class="flex">
+  <div style="margin-top: 0;" class="flex">
     <div class="sdsdf">
       <p class="Txet-1">We Create Your Creative Content</p>
       <p class="Txet-2">
@@ -270,6 +274,7 @@ export default {
     font-weight: 700;
     font-size: 54px;
     line-height: 56px;
+    margin-top: 100px;
   }
 
 
@@ -285,8 +290,10 @@ export default {
     width: 150px;
   }
   .container{
-
+    margin-top: 0px;
     background:none;
+
+    margin-top: 20px;
   }
   .felxcontectusbut{
     margin-left: -25px;

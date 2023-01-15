@@ -4,8 +4,10 @@
   font-family:'Inter' ;
   src: url(fonts/DXRigraf-SemiBold.otf)
 }
-
 body {
+
+  cursor: url("https://de3.studio/start.svg") 16 16, ;
+
   overflow-x: hidden;
 font-family: 'Inter', sans-serif;
 color:white;

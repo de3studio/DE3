@@ -48,7 +48,14 @@
   height: 56px;
   background: #ffffff;
   border-radius: 16px;
+  transition: 1s;
 }
+.butwite:hover {
+  outline:none;
+  border-color:#9ecaed;
+  box-shadow:0 0 14px #9ecaed;
+}
+
 .dsgdt {
   padding-left: 150px;
 }
