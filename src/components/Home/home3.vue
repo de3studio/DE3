@@ -33,7 +33,7 @@
           </video>
         </div>
         <p
-          style="margin-right: -255px; margin-top: 0px; margin-bottom: 0px"
+          style="margin-right: -265px; margin-top: 0px; margin-bottom: 0px"
           class="texthome1 vfsf"
         >
           Web desgin
@@ -57,8 +57,8 @@
             <source src="../../assets/svervice/3DGIF.mp4" type="video/mp4" />
           </video>
         </div>
-        <p style="margin-top: 0px; margin-bottom: 0px" class="texthome1 vfsf">
-          2D
+        <p style=" margin-right: -350px; margin-top: 0px; margin-bottom: 0px" class="texthome1 vfsf">
+          Motion design
           <br />
         </p>
         <p class="textbox">
@@ -102,7 +102,7 @@
 <style scoped>
 .vfsf {
   width: auto;
-  max-width: 360px;
+  max-width: 460px;
 }
 .home2flex {
   display: flex;
@@ -131,7 +131,7 @@
   height: 35px;
   background: #111111;
   position: absolute;
-  z-index: 98 9;
+  z-index: 989;
 
   align-items: center;
 

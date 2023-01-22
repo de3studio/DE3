@@ -2,13 +2,11 @@
 import naved from "./components/nave.vue";
 import ewend from "./components/test.vue";
 import end from "./components/end.vue";
-import qdd from "./components/mausepo.vue";
 export default {
   components: {
     naved,
    end,
   ewend,
-  qdd,
   },
   data() {
     return {
@@ -54,9 +52,9 @@ export default {
           <ewend></ewend>
       </div>
      <RouterView />
+     
   </div>
-
-  <end></end>
+<end                   ></end>
 
 </template>
 

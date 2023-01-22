@@ -33,7 +33,7 @@
       </li>
 
       <li style="margin: 20px" @click="ind = 83" class="three">
-        <a href="#">| About us</a>
+        <RouterLink active-class="active" class="three" to="/about">| Design</RouterLink>
       </li>
       <div
         :style="{

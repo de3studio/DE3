@@ -1,14 +1,46 @@
 <template>
+  <div
+    style="
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      z-index: 998;
+      width: 100%;
+      height: 100%;
+      background: #252626bf;
+      right: 0px;
+      top: 80px;
+      align-items: center;
+      cursor: pointer; ;
+    "
+    v-if="imgtr"
+    @click="sowimg()"
+  >
+    <div style="position: absolute; top: 0; right: 40px"><H1>X</H1></div>
+
+    <div>
+      <img style="
+    width: 100%;
+" :src="sor" alt="" />
+    </div>
+  </div>
   <div style="display: flex; justify-content: center">
     <h1 style="height: auto; text-align: center" class="Txet-1 f2gvh2">
-      our work in  
-DESIGN
+      our work in DESIGN
     </h1>
   </div>
 
   <div class="dgdfg2" style="margin-top: 0">
     <div class="fgffg">
-      <img class="fgffg" src="../assets/Design/1.png" alt="">
+      <picture> 
+        <source media="(max-width: 800px)" srcset="../assets/Design/11.png">
+      <img
+        @click="sowimg('https://de3.studio/assets/1-7b578429.png')"
+  
+        src="../assets/Design/1.png"
+        alt=""
+      />
+      </picture>
     </div>
 
     <div class="dfsdfgsd2">
@@ -60,8 +92,9 @@ DESIGN
         >Video Cover Photo</P
       >
     </div>
+    
     <div>
-      <div class="fsdf23">
+      <div  id="dgd24" class="fsdf23">
         <p>Design the cover image for Bandarita's channel videos</p>
       </div>
     </div>
@@ -92,16 +125,27 @@ DESIGN
       </div>
       <div class="OURWORKbut"></div>
     </div>
-    <div class="fgffg fddq4r">
-
-      <img class="fgffg" src="../assets/Design/2.png" alt="">
-
+    <div class="fgffg dfdgggg">
+      <picture> 
+        <source media="(max-width: 800px)" srcset="../assets/Design/22.png">
+      <img
+        @click="sowimg('https://de3.studio/assets/2-3d4541f9.png')"
+        src="../assets/Design/2.png"
+        alt=""
+      />
+      </picture>
     </div>
   </div>
 
   <div class="dgdfg2">
     <div class="fgffg">
-      <img class="fgffg" src="../assets/Design/3.png" alt="">
+      <picture> 
+        <source media="(max-width: 800px)" srcset="../assets/Design/33.png">
+        <img
+        @click="sowimg('https://de3.studio/assets/3-4547f31d.png')"
+        src="../assets/Design/3.png"
+        alt=""
+      /></picture>
 
     </div>
 
@@ -145,13 +189,20 @@ DESIGN
       <div class="OURWORKbut"></div>
     </div>
   </div>
-  <end></end>
 </template>
 <script>
-import end from "../components/end.vue";
 export default {
-  components: {
-    end,
+  data() {
+    return {
+      imgtr: false,
+      sor: "",
+    };
+  },
+  methods: {
+    sowimg(e) {
+      this.sor = e;
+      this.imgtr = !this.imgtr;
+    },
   },
 };
 </script>
@@ -179,8 +230,9 @@ export default {
   width: 300px;
 }
 .fgffg {
-  width: 800px;
-  height: 682px;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
   position: relative;
 }
 .dfsdfgsd2 {
@@ -192,19 +244,29 @@ export default {
   border-radius: 40px;
 }
 
+.dfdgggg{
+
+  display: flex;
+  justify-content: end;
+}
+
 @media only screen and (max-width: 820px) {
+  .dgd24{
+    margin-top: -160px;
+  }
   .dgdfg2 {
     display: block;
   }
   .fgffg {
     margin-left: 2px;
-    width: 350px;
-    height: 350px;
+    width: auto;
+    height: auto;
   }
-  .fddq4r {
+  .dfdgggg {
+    justify-content: start;
     position: absolute;
     margin-left: 0;
-    margin-top: -680px;
+    margin-top: -540px;
   }
   .dfgsdft {
     border-radius: 20px;
@@ -221,14 +283,14 @@ export default {
   .dfdf {
     margin-top: 0;
     margin-left: 4px;
-    margin-bottom: 70px;
+
   }
   .dcgdfg {
-    margin-bottom: 550px;
+    margin-bottom: 430px;
   }
-  .dfsdfgsd2{
+  .dfsdfgsd2 {
     margin-top: -40px;
-    margin-left:0;
+    margin-left: 0;
   }
 }
 </style>

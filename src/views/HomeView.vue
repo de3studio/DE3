@@ -6,28 +6,27 @@ import home5 from "../components/Home/home5.vue";
 export default {
   components: {
     home,
-   home3,
-   home4,
+    home3,
+    home4,
     home5,
   },
   mounted() {
-    window.scrollTo({ top: 0, });
-    }
-  }
-  
+    window.scrollTo({ top: 0 });
+  },
+};
 </script>
 <template>
   <div class="shape-1"></div>
-  <div style="margin-top: 0;" class="flex">
+  <div style="margin-top: 0" class="flex">
     <div class="sdsdf">
-      <p class="Txet-1">We Create Your Creative Content</p>
+      <p class="Txet-1">Let's Make Creativ Work Together</p>
       <p class="Txet-2">
         Ipsum has been the industry's standard dummy text ever since the 1500s,
         when an unknown printer took a galley oftype and
       </p>
 
       <div
-        style="display: flex; margin-top:20px; margin-bottom: 10px"
+        style="display: flex; margin-top: 20px; margin-bottom: 10px"
         class="felxcontectusbut"
       >
         <RouterLink to="/about" class="contectusbut">contect us</RouterLink>
@@ -66,17 +65,18 @@ export default {
     </div>
   </div>
 
-<home></home>
+  <home></home>
 
-<home3></home3>
+  <home3></home3>
 
-<home4></home4>
-<home5></home5>
-
+  <home4></home4>
+  <home5></home5>
 </template>
 
 <style>
- .sdsdf{margin-top: 125px}
+.sdsdf {
+  margin-top: 125px;
+}
 .flex {
   display: flex;
 }
@@ -93,7 +93,7 @@ export default {
 }
 .Txet-1 {
   width: 687.58px;
-  height: 288px;
+  height: 50%;
   font-family: "Inter";
   font-weight: 600;
   font-size: 100px;
@@ -162,7 +162,7 @@ export default {
   width: 308.65px;
   height: 64px;
   font-family: "Inter";
-    font-style: normal;
+  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -171,20 +171,20 @@ export default {
   background: linear-gradient(109.9deg, #c67806 7.43%, #ffd80d 103.68%);
   border-radius: 16px;
   transition: 1s;
-
 }
-.contectusbut:hover{
+.contectusbut:hover {
   background: linear-gradient(109.9deg, #c67806 7.43%, #ffd80d 103.68%);
-  background-repeat:no-repeat;
-  background-size: 200% 100%; 
-  transition:background-size 1s, background-color 1s;
-
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  transition: background-size 1s, background-color 1s;
 }
-.contectusbut:active {background-color:#2980b9; transition:background-size 0}
+.contectusbut:active {
+  background-color: #2980b9;
+  transition: background-size 0;
+}
 
-.ma25{
+.ma25 {
   margin-left: 50px;
-
 }
 .OURWORKbut {
   box-sizing: border-box;
@@ -229,11 +229,11 @@ export default {
 }
 
 @media only screen and (max-width: 820px) {
-
-  .sdsdf{margin-top: 0;}
+  .sdsdf {
+    margin-top: 0;
+  }
   .flex {
-    
-    justify-content:start;;
+    justify-content: start;
     display: block;
   }
   .img1 {
@@ -242,11 +242,11 @@ export default {
   .patner {
     border-radius: 12.399px;
     margin-left: 100px;
-    width: 201.03px;                            
+    width: 201.03px;
     height: 114.69px;
     margin-top: -70px;
   }
-  
+
   .shape-1 {
     display: none;
   }
@@ -274,32 +274,30 @@ export default {
     font-weight: 700;
     font-size: 54px;
     line-height: 56px;
-    margin-top: 100px;
   }
-
 
   .contectusbut {
     width: 150px;
   }
 
   .wfelxcontectusbut {
-
     width: 148px;
   }
   .OURWORKbut {
     width: 150px;
   }
-  .container{
+  .container {
     margin-top: 0px;
-    background:none;
+    background: none;
 
     margin-top: 20px;
   }
-  .felxcontectusbut{
+  .felxcontectusbut {
     margin-left: -25px;
     justify-content: center;
   }
- .ma25{
-      margin-left: 25px;
- }}
+  .ma25 {
+    margin-left: 25px;
+  }
+}
 </style>
