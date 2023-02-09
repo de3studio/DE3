@@ -1,4 +1,9 @@
 <template>
+
+
+
+
+<iframe src="https://discord.com/widget?id=925322550513381377&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
   <div style="display: flex; justify-content: center">
     <h1 style="height: auto; text-align: center" class="Txet-1 f2gvh2">
       Our Work In 3D
@@ -16,56 +21,7 @@
           overflow: hidden;
         "
       >
-        <iframe
-          style="
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-          "
-          srcdoc="<style>
-          * {
-          padding: 0;
-          margin: 0;
-          overflow: hidden;
-          }
-          
-          body, html {
-            height: 100%;
-          }
-          
-          img, svg {
-            position: absolute;
-            width: 100%;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-          }
-          
-          svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-            transition: all 250ms ease-in-out;
-          }
-          
-          body:hover svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-            transform: scale(1.2);
-          }
-        </style>
-        <a href='https://www.youtube.com/embed/LFWWLvkB3mE?autoplay=1'>
-          <img src='https://img.youtube.com/vi/LFWWLvkB3mE/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
-          <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
-        </a>
-        "
-          src="https://www.youtube.com/embed/LFWWLvkB3mE"
-          title="Coffee Recipe Javascript Project"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
+        <div v-html="iframeString"></div>
       </div>
     </div>
 
@@ -160,56 +116,7 @@
           overflow: hidden;
         "
       >
-        <iframe
-          style="
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-          "
-          srcdoc="<style>
-          * {
-          padding: 0;
-          margin: 0;
-          overflow: hidden;
-          }
-          
-          body, html {
-            height: 100%;
-          }
-          
-          img, svg {
-            position: absolute;
-            width: 100%;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-          }
-          
-          svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-            transition: all 250ms ease-in-out;
-          }
-          
-          body:hover svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-            transform: scale(1.2);
-          }
-        </style>
-        <a href='https://www.youtube.com/embed/LFWWLvkB3mE?autoplay=1'>
-          <img src='https://img.youtube.com/vi/LFWWLvkB3mE/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
-          <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
-        </a>
-        "
-          src="https://www.youtube.com/embed/LFWWLvkB3mE"
-          title="Coffee Recipe Javascript Project"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
+        <div v-html="iframeString2"></div>
       </div>
     </div>
   </div>
@@ -225,69 +132,7 @@
           overflow: hidden;
         "
       >
-        <iframe
-          style="
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-          "
-          srcdoc="<style>
-          * {
-          padding: 0;
-          margin: 0;
-          overflow: hidden;
-          }
-          
-          body, html {
-            height: 100%;
-          }
-          
-          img, svg {
-            position: absolute;
-            width: 100%;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-          }
-          
-          svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-            transition: all 250ms ease-in-out;
-          }
-          
-          body:hover svg {
-            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-            transform: scale(1.2);
-          }
-        </style>
-        <a href='https://www.youtube.com/embed/LFWWLvkB3mE?autoplay=1'>
-          <img src='https://img.youtube.com/vi/LFWWLvkB3mE/maxresdefault.jpg' alt='Coffee Recipe Javascript Project'>
-          <svg width='72' height='73' viewBox='0 0 72 73' fill='none' xmlns='http://www.w3.org/2000/svg'>
-<g filter='url(#filter0_b_1_877)'>
-<rect y='0.302734' width='72' height='72' rx='24' fill='white' fill-opacity='0.43'/>
-<path d='M22.666 36.3009V30.3676C22.666 23.0009 27.8827 19.9843 34.266 23.6676L39.416 26.6343L44.566 29.6009C50.9493 33.2843 50.9493 39.3176 44.566 43.0009L39.416 45.9676L34.266 48.9343C27.8827 52.6176 22.666 49.6009 22.666 42.2343V36.3009Z' stroke='#292D32' stroke-width='2.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/>
-</g>
-<defs>
-<filter id='filter0_b_1_877' x='-12' y='-11.6973' width='96' height='96' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
-<feFlood flood-opacity='0' result='BackgroundImageFix'/>
-<feGaussianBlur in='BackgroundImageFix' stdDeviation='6'/>
-<feComposite in2='SourceAlpha' operator='in' result='effect1_backgroundBlur_1_877'/>
-<feBlend mode='normal' in='SourceGraphic' in2='effect1_backgroundBlur_1_877' result='shape'/>
-</filter>
-</defs>
-</svg>
-        </a>
-        "
-          src="https://www.youtube.com/embed/LFWWLvkB3mE"
-          title="Coffee Recipe Javascript Project"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
+        <div v-html="iframeString3"></div>
       </div>
     </div>
     <div class="dfsdfgsd2">
@@ -332,15 +177,203 @@
   </div>
 </template>
 <script>
+import axios from "axios";
+
 export default {
+  methods: {
+    gefe() {
+
+      this.iframeString = `<iframe
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+          "
+          srcdoc="<style>
+          * {
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+          }
+          
+          body, html {
+            height: 100%;
+          }
+          
+          img, svg {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+          }
+          
+          svg {
+            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+            transition: all 250ms ease-in-out;
+          }
+          
+          body:hover svg {
+            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+            transform: scale(1.2);
+          }
+        </style>
+        <a href='https://www.youtube.com/embed/${this.imgSrc}?autoplay=1'>
+          <img src='https://img.youtube.com/vi/${this.imgSrc}/maxresdefault.jpg'  alt='Coffee Recipe Javascript Project'>
+          <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+        </a>
+        "
+          src="https://www.youtube.com/embed/${this.imgSrc}"
+          title="Coffee Recipe Javascript Project"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>`;
+
+      this.iframeString3 = `<iframe
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+          "
+          srcdoc="<style>
+          * {
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+          }
+          
+          body, html {
+            height: 100%;
+          }
+          
+          img, svg {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+          }
+          
+          svg {
+            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+            transition: all 250ms ease-in-out;
+          }
+          
+          body:hover svg {
+            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+            transform: scale(1.2);
+          }
+        </style>
+        <a href='https://www.youtube.com/embed/${this.imgSrc3}?autoplay=1'>
+          <img src='https://img.youtube.com/vi/${this.imgSrc3}/maxresdefault.jpg'  alt='Coffee Recipe Javascript Project'>
+          <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+        </a>
+        "
+          src="https://www.youtube.com/embed/${this.imgSrc3}"
+          title="Coffee Recipe Javascript Project"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>`;
+
+      this.iframeString2 = `<iframe
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+          "
+          srcdoc="<style>
+          * {
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+          }
+          
+          body, html {
+            height: 100%;
+          }
+          
+          img, svg {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+          }
+          
+          svg {
+            filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+            transition: all 250ms ease-in-out;
+          }
+          
+          body:hover svg {
+            filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+            transform: scale(1.2);
+          }
+        </style>
+        <a href='https://www.youtube.com/embed/${this.imgSrc2}?autoplay=1'>
+          <img src='https://img.youtube.com/vi/${this.imgSrc2}/maxresdefault.jpg'  alt='Coffee Recipe Javascript Project'>
+          <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+        </a>
+        "
+          src="https://www.youtube.com/embed/${this.imgSrc2}"
+          title="Coffee Recipe Javascript Project"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>`;
+    },
+  },
+
   components: {},
-  mounted() {
+  async mounted() {
     window.scrollTo({ top: 0 });
+    const setDisplay = () => {
+    console.log(this.$el);
+  }
+
+    const response = await axios.get("https://nodejsvido.vercel.app/getvido");
+    this.data = response.data;
+
+    this.imgSrc = this.data.vedio1;
+    this.imgSrc2 = this.data.vedio2;
+    this.imgSrc3 = this.data.vedio3;
+   this.gefe();
+  },
+
+  data() {
+    return {
+      data: [],
+      imgSrc: "LFWWLvkB3mE",
+      imgSrc2: "LFWWLvkB3mE",
+      imgSrc3: "LFWWLvkB3mE",
+      iframeString: "",
+      iframeString2: "",
+      iframeString3: "",
+    };
   },
 };
 </script>
 
 <style>
+
+#arrow{
+
+  margin-left: 27%;
+}
 .f2gvh2 {
   width: 450px;
   font-size: 70px;

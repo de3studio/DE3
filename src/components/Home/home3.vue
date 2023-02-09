@@ -78,7 +78,7 @@
     <div class="home2flex" style="justify-content: center">
       <div>
         <video autoplay loop muted playsinline>
-            <source src="../../assets/svervice/3DGIF.mp4" type="video/mp4" />
+            <source src="../../assets/svervice/10800001-0100.mp4" type="video/mp4" />
           </video>
       </div>
       <p
