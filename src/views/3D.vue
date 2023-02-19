@@ -1,15 +1,4 @@
 <template>
-
-
-
-
-<iframe src="https://discord.com/widget?id=925322550513381377&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-  <div style="display: flex; justify-content: center">
-    <h1 style="height: auto; text-align: center" class="Txet-1 f2gvh2">
-      Our Work In 3D
-    </h1>
-  </div>
-
   <div class="dgdfg2" style="margin-top: 0">
     <div class="fgffg">
       <div
@@ -177,13 +166,12 @@
   </div>
 </template>
 <script>
-import axios from "axios";
+  import axios from "axios";
 
-export default {
-  methods: {
-    gefe() {
-
-      this.iframeString = `<iframe
+  export default {
+    methods: {
+      gefe() {
+        this.iframeString = `<iframe
           style="
             position: absolute;
             top: 0;
@@ -234,7 +222,7 @@ export default {
         >
         </iframe>`;
 
-      this.iframeString3 = `<iframe
+        this.iframeString3 = `<iframe
           style="
             position: absolute;
             top: 0;
@@ -285,7 +273,7 @@ export default {
         >
         </iframe>`;
 
-      this.iframeString2 = `<iframe
+        this.iframeString2 = `<iframe
           style="
             position: absolute;
             top: 0;
@@ -335,118 +323,118 @@ export default {
           allowfullscreen
         >
         </iframe>`;
+      },
     },
-  },
 
-  components: {},
-  async mounted() {
-    window.scrollTo({ top: 0 });
-    const setDisplay = () => {
-    console.log(this.$el);
-  }
+    components: {},
+    async mounted() {
+      window.scrollTo({ top: 0 });
+      const setDisplay = () => {
+        console.log(this.$el);
+      };
 
-    const response = await axios.get("https://nodejsvido.vercel.app/getvido");
-    this.data = response.data;
+      const response = await axios.get(
+        "https://loquacious-crepe-a6721d.netlify.app/.netlify/functions/api/"
+      );
+      this.data = response.data.vedios;
 
-    this.imgSrc = this.data.vedio1;
-    this.imgSrc2 = this.data.vedio2;
-    this.imgSrc3 = this.data.vedio3;
-   this.gefe();
-  },
+      this.imgSrc = this.data.vedio1;
+      this.imgSrc2 = this.data.vedio2;
+      this.imgSrc3 = this.data.vedio3;
+      this.gefe();
+    },
 
-  data() {
-    return {
-      data: [],
-      imgSrc: "LFWWLvkB3mE",
-      imgSrc2: "LFWWLvkB3mE",
-      imgSrc3: "LFWWLvkB3mE",
-      iframeString: "",
-      iframeString2: "",
-      iframeString3: "",
-    };
-  },
-};
+    data() {
+      return {
+        data: [],
+        imgSrc: "LFWWLvkB3mE",
+        imgSrc2: "LFWWLvkB3mE",
+        imgSrc3: "LFWWLvkB3mE",
+        iframeString: "",
+        iframeString2: "",
+        iframeString3: "",
+      };
+    },
+  };
 </script>
 
 <style>
-
-#arrow{
-
-  margin-left: 27%;
-}
-.f2gvh2 {
-  width: 450px;
-  font-size: 70px;
-}
-.dgdfg2 {
-  margin-top: 100px;
-  display: flex;
-}
-.fddq4r {
-  margin-left: 70px;
-}
-
-.dfdf {
-  margin-top: 335px;
-  margin-left: -348px;
-}
-.fsdf23 {
-  margin-left: -348px;
-  margin-top: 235px;
-  width: 300px;
-}
-.fgffg {
-  width: 800px;
-  height: 550px;
-  width: 800px;
-  position: relative;
-}
-.dfsdfgsd2 {
-  margin-top: 70px;
-  margin-left: 20px;
-}
-
-.dfgsdft {
-  border-radius: 40px;
-}
-
-@media only screen and (max-width: 820px) {
-  .dgdfg2 {
-    display: block;
-  }
-  .fgffg {
-    margin-left: 2px;
-    width: 350px;
-    height: 350px;
-  }
-  .fddq4r {
-    position: absolute;
-    margin-left: 0;
-    margin-top: -680px;
-  }
-  .dfgsdft {
-    border-radius: 20px;
+  #arrow {
+    margin-left: 27%;
   }
   .f2gvh2 {
-    font-size: 50px;
-    margin-left: -25px;
-    width: auto;
+    width: 450px;
+    font-size: 70px;
+  }
+  .dgdfg2 {
+    margin-top: 100px;
+    display: flex;
+  }
+  .fddq4r {
+    margin-left: 70px;
+  }
+
+  .dfdf {
+    margin-top: 335px;
+    margin-left: -348px;
   }
   .fsdf23 {
-    margin-top: -126px;
-    margin-left: 10px;
+    margin-left: -348px;
+    margin-top: 235px;
+    width: 300px;
   }
-  .dfdf {
-    margin-top: 0;
-    margin-left: 4px;
-    margin-bottom: 70px;
-  }
-  .dcgdfg {
-    margin-bottom: 550px;
+  .fgffg {
+    width: 800px;
+    height: 550px;
+    width: 800px;
+    position: relative;
   }
   .dfsdfgsd2 {
-    margin-top: -40px;
-    margin-left: 0;
+    margin-top: 70px;
+    margin-left: 20px;
   }
-}
+
+  .dfgsdft {
+    border-radius: 40px;
+  }
+
+  @media only screen and (max-width: 820px) {
+    .dgdfg2 {
+      display: block;
+    }
+    .fgffg {
+      margin-left: 2px;
+      width: 350px;
+      height: 350px;
+    }
+    .fddq4r {
+      position: absolute;
+      margin-left: 0;
+      margin-top: -680px;
+    }
+    .dfgsdft {
+      border-radius: 20px;
+    }
+    .f2gvh2 {
+      font-size: 50px;
+      margin-left: -25px;
+      width: auto;
+    }
+    .fsdf23 {
+      margin-top: -126px;
+      margin-left: 10px;
+    }
+    .dfdf {
+      margin-top: 0;
+      margin-left: 4px;
+      margin-bottom: 70px;
+    }
+    .dcgdfg {
+      margin-bottom: 550px;
+    }
+    .dfsdfgsd2 {
+      margin-top: -40px;
+      margin-left: 0;
+    }
+  }
 </style>
