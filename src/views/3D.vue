@@ -334,11 +334,11 @@
       };
 
       const response = await axios.get(
-        "https://loquacious-crepe-a6721d.netlify.app/.netlify/functions/api/"
+        "https://silly-pegasus-a574d3.netlify.app/.netlify/functions/api/"
       );
       this.data = response.data.vedios;
 
-      this.imgSrc = this.data.vedio1;
+      this.imgSrc = this.data.vedios1;
       this.imgSrc2 = this.data.vedio2;
       this.imgSrc3 = this.data.vedio3;
       this.gefe();
